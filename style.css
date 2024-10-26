@@ -36,18 +36,12 @@ body {
     margin: 10px;
 }
 
-.occupation {
-    /* margin-top: px; */
-}
-
 .occupation span {
     font-size: 1rem;
 }
 
 .username span {
     border-bottom: 2px solid #39697f;
-    /* padding-bottom: 5px; */
-    /* margin-bottom: 3px; */
 }
 
 .email {
@@ -60,6 +54,9 @@ body {
     font-size: 1.1rem;
 }
 
+.download-cv a:hover {
+    color: whitesmoke;
+}
 
 .download-cv a:visited {
     color: blueviolet;
