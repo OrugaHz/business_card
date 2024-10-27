@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 50vw;
+    width: 40vw;
     margin: 15% auto;
     padding: 30px;
     background-color: #072c3d;
@@ -33,7 +33,6 @@ body {
     @media (max-width: 992px) {
         display: flex;
         flex-direction: column;
-        height: 60vh;
     }
 }
 
