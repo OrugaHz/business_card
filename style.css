@@ -5,13 +5,12 @@
 }
 
 body {
-    background: url("https://cdn.pixabay.com/photo/2020/05/16/13/40/blue-5177612_1280.jpg");
+    background: url("https://cdn.pixabay.com/photo/2020/05/16/13/40/blue-5177612_1280.jpg") center center fixed;
     background-size: cover;
 }
 
 .container {
     width: 40%;
-    /* height: 300px; */
     margin: 10% auto;
     padding: 30px;
     background-color: #072c3d;
@@ -20,10 +19,33 @@ body {
     box-shadow: 5px 10px 10px #39697f;
 }
 
-.business-card img {
-    float: left;
-    /* height: 120px;
-    width: 150px; */
+.business-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    @media (max-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.img-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-user img {
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.395);
+
+    @media (max-width: 1200px) {
+        width: 80%;
+    }
 }
 
 .username,
@@ -46,12 +68,20 @@ body {
 
 .email {
     font-size: 1.1rem;
+
+    @media (max-width: 1200px) {
+        font-size: 80%;
+    }
 }
 
 .download-cv a {
     color: #5d90a8;
     text-decoration: none;
     font-size: 1.1rem;
+
+    @media (max-width: 1200px) {
+        font-size: 1rem;
+    }
 }
 
 .download-cv a:hover {
