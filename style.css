@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-    width: 40%;
-    margin: 10% auto;
+    width: 50vw;
+    margin: 15% auto;
     padding: 30px;
     background-color: #072c3d;
     color: white;
@@ -19,8 +19,7 @@ body {
     box-shadow: 5px 10px 10px #39697f;
 
     @media (max-width: 992px) {
-        height: 80%;
-        width: 60%;
+        width: 60vw;
     }
 }
 
@@ -34,6 +33,7 @@ body {
     @media (max-width: 992px) {
         display: flex;
         flex-direction: column;
+        height: 60vh;
     }
 }
 
